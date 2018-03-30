@@ -1,0 +1,102 @@
+main {
+    padding-left: 80px;
+    padding-right: 100px;
+    padding-top: 60px; 
+    z-index: -1;
+    width:88%;
+
+}
+
+.content {
+    background-color: #ffff;
+}
+
+.leftBox {
+    display: inline-block;
+    padding: 20px 20px 60px 60px;
+    max-width:500px;
+    
+}
+
+.rightBox {
+    padding: 60px ;
+}
+
+h1 {
+    padding-left: 40px;
+}
+
+
+body {
+    font-family: "Verdana";
+    background-color: #34495e;   
+    margin: 0;
+}
+
+.breadCrumb {
+    display: block;
+    margin-top: 10px;
+    padding: 30px 50px 20px;
+}
+
+ol {
+    padding-left: 120px;
+    padding-top: 30px; 
+}
+
+.leftBox1 {
+    display: inline-block;
+    padding: 20px 20px 60px 60px;
+    max-width:600px;
+}
+
+.rightBox1 {
+    padding: 60px ;
+}
+
+.leftBox2 {
+    display: inline-block;
+    padding: 20px 80px 60px 60px;
+    max-width:560px;
+    }
+
+.rightBox2 {
+    display: inline-block;
+    padding: 20px 60px 60px 40px;
+    max-width:380px;
+
+}
+
+#needBG {
+    background-image: url("../Gallery/earth.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    padding-top: 250px;
+    opacity: 0.5;
+    width: 500px;
+}
+
+#needBG:hover {
+    opacity: 1;
+}
+
+footer {
+    font-style: italic;
+    font-size: 12px;
+}
+
+div.gallery {
+   display: inline-block;
+   padding: 20px;
+   margin: 40px;
+   text-align: center;
+}
+.gallery img:hover {
+    opacity: 0.5;
+}
+
+#h2gallery {
+    padding-left: 50px;
+}
