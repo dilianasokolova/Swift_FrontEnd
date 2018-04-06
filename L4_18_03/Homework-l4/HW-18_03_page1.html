@@ -5,12 +5,16 @@
         <title>Planets</title>
     </head>
     <body>
-        <div>
+        <div> <!-- Не че пречи, но този див е излишен. -->
             <table width="100%">
                 <thead>
                     <tr>
+                        <!-- Бих ти препоръчал да слагаш отделните тагове на отделни редове. Просто става по четимо. -->
                         <td width="25%">
-                            <a href="HW-18_03_page1.html"><img src="Logo.png"></a></td>
+                            <a href="HW-18_03_page1.html">
+                                <img src="Logo.png"/>
+                            </a>
+                        </td>
                         <td width="15%"><a href="http://www.skyandtelescope.com/astronomy-news/solar-system/" target="_blank">News</a></td>
                         <td width="20%"><a href="HW-18_03_page_ContactUs.html">Contact us</a></td>
                         <td width="40%"><a href="HW-18_03_page_Gallery.html">Gallery</a></td>
@@ -31,11 +35,12 @@
                     The Solar System formed 4.6 billion years ago from the gravitational collapse of a giant interstellar molecular cloud. The vast majority of the system's mass is in the Sun, with the majority of the remaining mass contained in Jupiter. The four smaller inner planets, Mercury, Venus, Earth and Mars, are terrestrial planets, being primarily composed of rock and metal. The four outer planets are giant planets, being substantially more massive than the terrestrials. The two largest, Jupiter and Saturn, are gas giants, being composed mainly of hydrogen and helium; the two outermost planets, Uranus and Neptune, are ice giants, being composed mostly of substances with relatively high melting points compared with hydrogen and helium, called volatiles, such as water, ammonia and methane. All eight planets have almost circular orbits that lie within a nearly flat disc called the ecliptic.</article></td>
                     <td>
                         <img src="sol.jpg" width="500" alt="TheSolarSystem" usemap="#solarSystem"/>
+                        <!-- Гледай, като отваряш тагове, да ги затваряш на същата позиция, както са отвориени (Затвярящия </map> е по-навътре от отварящия)  -->
                         <map name="solarSystem" />
-                                <area shape="rect" coords="50, 80, 65, 170" alt="Mercury" href="HW-18_03_page_Mercury.html" title="Mercury"/>
-                                <area shape="rect" coords="66, 80, 80, 170" alt="Venus" href="HW-18_03_page_Venus.html" title="Venus"/>
-                                <area shape="rect" coords="81, 80, 95, 170" alt="Earth" href="HW-18_03_page_Earth.html" title="Earth"/>
-                            </map>
+                            <area shape="rect" coords="50, 80, 65, 170" alt="Mercury" href="HW-18_03_page_Mercury.html" title="Mercury"/>
+                            <area shape="rect" coords="66, 80, 80, 170" alt="Venus" href="HW-18_03_page_Venus.html" title="Venus"/>
+                            <area shape="rect" coords="81, 80, 95, 170" alt="Earth" href="HW-18_03_page_Earth.html" title="Earth"/>
+                        </map>
                     </td>
                 </tr>
                 <tr>
