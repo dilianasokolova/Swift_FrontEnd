@@ -1,4 +1,12 @@
-nav ul {
+.mainPageHeader{
+    position: fixed;
+    width: 100%;
+    background-color: #2980b9;
+}
+
+/* --- Добра идея е да не използваш само селектори по таг, а да ги комбинираш със селектори по class или id. 
+    Причината е, че така ще ти е много по-трудно да използваш <nav> на друго място по страницата, тъй като ще трябва да се бориш със стиловете, които си поставила заради главната навигация. --- */
+.mainPageHeader nav ul {
     list-style-type: none;
     margin: 0;
     margin-left: 400px;
@@ -6,33 +14,32 @@ nav ul {
     
   }
 
-nav li {
+.mainPageHeader nav li {
     display: inline-block;
     padding: 20px 10px 30px 60px;
 }
 
 
-nav li a {
+.mainPageHeader nav li a {
     margin: 5px 15px;
     text-decoration: none;
     color: #ffff;
 }
 
-
-nav {
-    position: fixed;
-    background-color: #2980b9;
+.mainPageHeader nav {
+    position: relative; /* --- Добавх го, понеже position:absolute поставен на логото, ще работи спрямо първия елемент, който има позиция различна от static --- */
     color: white;
     top: 0;
-    width: 100%;
     height: 80px;
+    width: 88%; /* --- понеже си сложила 88% за широчина на главния контейнер, поставям 88% тук за да може да са със същия размер. --- */
+    margin: auto;
     z-index: 1;
 }
 
 
-nav img {
+.mainPageHeader nav img {
     position: absolute;
-    left: 80px;
-    top: 2;
+    left: 0; /* --- Смених го на 0, тъй като вмомента имаме контейнер, който подсигорява че header-a винаги ще е в средата --- */ 
+    top: 2; /* --- Стойност 2, без мерна единица, нама никъкъв ефект. Единствената стойност, която няма нужда от мерна единица е 0, понеже 0px 0% или 0vh винаги има един и същ смисъл --- */
  }
 
