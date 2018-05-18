@@ -1,0 +1,226 @@
+body {
+  background-color: #181c1f;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 1050px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+/*......Header Section..........*/
+.headerLogo {
+  height: 25;
+  width: 198;
+  float: left;
+}
+header {
+  width: 970px;
+  margin: auto;
+  height: 55px;
+  padding-top: 10px;
+}
+.navHeader ul {
+  list-style-type: none;
+}
+.navHeader li {
+  display: inline-block;
+  padding: 0 5px;
+}
+.mainNav {
+  display: inline-block;
+  color: white;
+  letter-spacing: 0.05em;
+  font-weight: 200;
+}
+.mainNav a:hover {
+  border-bottom: 2px solid #ccac55;
+  padding-bottom: 2px;
+  transition: border 0.2s ease;
+}
+.mainNav ul,
+.mainNav a:visited {
+  color: white;
+}
+#activePage {
+  color: #ccac55;
+}
+.secondaryNav {
+  float: right;
+}
+.secondaryNav a,
+.secondaryNav a:visited {
+  color: #8b939b;
+  font-size: 12px;
+  font-weight: bold;
+}
+.secondaryNav a:hover {
+  border-bottom: 2px solid #8b939b;
+  padding-bottom: 2px;
+  transition: border 0.2s ease;
+}
+#shopButton {
+  background-color: #0b0b0b;
+  border-radius: 15px;
+  padding: 2px 8px;
+}
+#shopButton a:hover {
+  border-bottom: none;
+  box-shadow: 0px 0px 4px 2px #fff inset;
+  border-radius: 25px;
+  padding: 2px 8px;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+/*.........main pic and popup section.........*/
+div.mainPic {
+  position: relative;
+  width: 128.5%;
+  height: 450px;
+  margin-left: -150px;
+  background-image: url(../gallery/fheavy_product_page1.jpg);
+  background-size: 100%;
+}
+div.infoMainPic {
+  position: absolute;
+  width: 420px;
+  height: 425px;
+  top: 100px;
+  left: 465px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  line-height: 1em;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+img.popupArrow {
+  width: 12%;
+}
+/*..........popup........... пробвах доста варианти за модалния прозорец...
+body.pagePopupBody {
+    position: relative;
+    width: 1349px;
+    
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundPopup {
+    position: absolute;
+    left:-5px;
+    top:0;
+    opacity: 0.3;
+    z-index: 1;
+    width: 1349px;
+    height: 758px;
+    
+}
+
+#popup {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 280px);
+    width: 560px;
+    height: 340px;
+    z-index: 3;
+   
+}
+.pagePopup {
+    width:1349px;
+    height: 758px;
+   
+
+}
+
+/* Falcon Heavy Main sector*/
+.mainInfoFalconHeavyWrap {
+  position: relative;
+}
+.mainInfoFalconHeavy {
+  display: table;
+  padding: 10px 20px  ;
+  width: 700px;
+  padding: 20px 20px 30px 20px;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 38%;
+  padding: 20px 40px 100px 0;
+  border-top: #fff 1px dashed;
+  line-height: 1.8em;
+  color: #e0e5e7;
+}
+.table-head {
+  display: table-row;
+  text-align: left;
+  font-size: 46px;
+  font-weight: normal;
+  padding: 10px;
+  line-height: 2em;
+}
+.mainInfoFalconHeavyPic {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  margin-right: 130px;
+  z-index: 1;
+}
+.mainInfoFalconHeavyPicLink {
+  position: absolute;
+  right: 0px;
+  top: 60px;
+  left: 0px;
+  color: #3569a4;
+}
+#link1 {
+  display: block;
+  width: 280px;
+  height: 42px;
+  margin-top: -40px;
+  background-color: #21272b;
+  z-index: -1;
+  text-align: center;
+  font-size: 0.75em;
+  color: #cccccc;
+  border-radius: 2px;
+}
+#link2 {
+  display: block;
+  width: 280px;
+  height: 42px;
+  margin-top: 5px;
+  z-index: -1;
+  text-align: center;
+  background-color: #21272b;
+  font-size: 0.75em;
+  color: #cccccc;
+  border-radius: 2px;
+}
+#link1::after {
+  content: url(../gallery/ic_trending_flat_white_18px.svg);
+}
+#link2::after {
+  content: url(../gallery/ic_trending_flat_white_18px.svg);
+}
+div.mainInfoFalconHeavyPicLink:hover {
+  cursor: pointer;
+}
+a:visited {
+  color: #3569A4;
+}
+.white {
+  color: white;
+}
+/* secondaryInfoFalconHeavy */
+.bigPicFalconHeavyWrap {
+  display: none;
+}
