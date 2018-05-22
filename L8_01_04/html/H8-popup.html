@@ -3,11 +3,49 @@
 <head>
     <meta charset="utf-8" />
     <title>Falcon Heavy Video</title>
-    <link rel="stylesheet" type="text/css" href="../css/L10.css"/>
+    <style>
+    body{
+        overflow: hidden;
+    }
+
+    .backgroundPopup {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top:0;
+        left: 0;;
+        z-index: 1;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    .popUpWrapper {
+        position: absolute;
+        margin: auto;
+        top:calc(50% - 250px);
+        left:calc(50% - 430px);
+        height: 500px;
+        width: 860px;
+    }
+
+   
+    .xxx{
+        position: absolute;
+        height: 38px;
+        width: 38px;
+        background-image: url('../gallery/closeBtnX.png');
+        top:-50px;
+        right: -50px;
+    }
+</style>
 </head>
-<body class="pagePopupBody">
-        <iframe class="backgroundPopup" src="HW-L8-SpaceX-home.html" width="102%" ></iframe>
-        <iframe id="popup" src="https://www.youtube.com/embed/Tk338VXcb24" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    
+<body>
+        <iframe src="HW-L8-SpaceX-home.html" style="height:100vh; width:100vw; border:none;"></iframe>
+        <div class="backgroundPopup">
+            <div class="popUpWrapper">
+                <a href="HW-L8-SpaceX-home.html" class="xxx"></a>
+                <iframe allowfullscreen="" frameborder="0" height="480" 
+                src="https://www.youtube.com/embed/Tk338VXcb24" width="853"></iframe>
+            </div>
+        </div>
 </body>
 </html>
