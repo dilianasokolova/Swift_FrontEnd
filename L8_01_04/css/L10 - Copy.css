@@ -103,43 +103,41 @@ div.infoMainPic {
 img.popupArrow {
   width: 12%;
 }
-/*..........popup........... пробвах доста варианти за модалния прозорец...
+/*..........popup........... пробвах доста варианти за модалния прозорец и накрая направих отделен лес док..
 body.pagePopupBody {
-    position: relative;
-    width: 1349px;
-    
     overflow: hidden;
-    margin: 0;
-    padding: 0;
+}
+.backgroundPopup {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.8);
 }
 
-.backgroundPopup {
+.popUpWrapper {
     position: absolute;
-    left:-5px;
-    top:0;
-    opacity: 0.3;
-    z-index: 1;
-    width: 1349px;
-    height: 758px;
+    margin: auto;
+    top:calc(50% - 250px);
+    left:calc(50% - 430px);
+    height: 500px;
+    width: 860px;
+   
     
 }
 
-#popup {
+   
+.xxx {
     position: absolute;
-    top: 20px;
-    left: calc(50% - 280px);
-    width: 560px;
-    height: 340px;
-    z-index: 3;
-   
-}
-.pagePopup {
-    width:1349px;
-    height: 758px;
-   
-
-}
-
+    height: 38px;
+    width: 38px;
+    background-image: url('../gallery/closeBtnX.png');
+    top:-50px;
+    right: -50px;
+            
+} */
 /* Falcon Heavy Main sector*/
 .mainInfoFalconHeavyWrap {
   position: relative;
