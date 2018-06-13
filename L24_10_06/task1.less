@@ -1,0 +1,72 @@
+.mainWrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('Images/BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+.picPlayWindow{
+    position: absolute;
+    top: 200px;
+    left: 37vw;
+    background-image: url('Images/AlbumArt.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 250px;
+}
+.infoPlayWindow{
+    position: absolute;
+    top: 420px;
+    left: 37vw;
+    background-color: white;
+    width: 350px;
+    height: 80px;
+    
+}
+
+.playPauseButton {
+    position: absolute;
+    bottom: 45px;
+    left:20px;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+
+.muteUnmuteButton {
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+    cursor: pointer;
+        &:hover{
+        transform: scale(1.2);
+    }
+}
+
+#seekslider{
+    position: absolute;
+    width: 65%;
+    height: 10px;
+    background-color: #e6e8ed;
+    //border-radius: 15px;
+    bottom: 45px;
+    left: 62px;
+}
+
+#timeBox{
+    color: #e6e8ed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    padding: 5px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Task1</title>
+    <link rel="stylesheet" href="task1.css"> 
+</head>
+<body class="mainWrapper">
+    <div class="wrapperPLayWindow">
+        <div class="picPlayWindow">
+            <!--<audio src="UFO sightings not higher.mp3" type="audio/mpeg" class="playNewSong"></audio>-->
+            <img src="Images/play.png" class="playPauseButton"/>
+            <input id="seekslider" type="range" min="0" max="100" value="0" step="1">
+            <div id="timeBox">
+                <span id="currentTimeText">00:00</span>/<span id="durationTimeText">00:00</span>
+            </div>
+            <img src="Images/Mute.png" class="muteUnmuteButton"/>
+        </div>
+        <div class="infoPlayWindow">
+            <h1 class="nameOfTheSong"></h1>
+            <h2 class="nameOfTheArtist"></h2>
+        </div>
+    </div>
+    
+    <script src="task1.js"></script>
+</body>
+
+</html>
