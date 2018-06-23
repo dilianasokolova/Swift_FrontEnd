@@ -1,6 +1,6 @@
 var audio = new Audio();
 var playButton = document.querySelector('.playPauseButton'); 
-//var seeking = false;
+var seeking = false;
 var dir = "audio_files/";
 var playlist = ["Disturbed- The Sound Of Silence Official Music Video.mp3", "Coldplay - Hymn For The Weekend (Official video).mp3", "Hozier - Take Me To Church.mp3", "Nickelback - How You Remind Me.mp3", "Nickelback - Rockstar OFFICIAL VIDEO.mp3", "P!nk - Try.mp3", "Rag'n'Bone Man - Human (Official Video).mp3", "Reamonn - Supergirl.mp3"];
 var playlist_index = 0;
