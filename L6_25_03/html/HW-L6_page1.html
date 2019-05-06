@@ -3,19 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <title>Planets Homepage</title>
+        <!-- Супер е, че си разделила стиловете за навигацията и главната част -->
         <link rel="stylesheet" type="text/css" href="../CSS/HW-L6_nav_style.css" />
         <link rel="stylesheet" type="text/css" href="../CSS/HW-L6_page1_style.css" />
     </head>
     <body>
-        <nav>
-        <a href="HW-L6_page1.html"><img src="../Gallery/Logo.png"></a>
-        <ul class="navigation"> 
-            <li><a href="http://www.skyandtelescope.com/astronomy-news/solar-system/" target="_blank">News</a></li>
-            <li><a href="HW-L6_page_ContactUs.html">Contact us</a></li>
-            <li><a href="HW-L6_page_Gallery.html">Gallery</a></li>
-        </ul>
-        </nav>
-        
+        <!-- <nav> и <ul> са супер, но в допълнение към тях, можеш да сложиш и <header>.
+            Освен, че ще ти помогне за добавяне на семантика към кода, ще ти помогне и за центрирането на съдържанието  -->
+        <header class="mainPageHeader">
+            <nav>
+                <a href="HW-L6_page1.html"><img src="../Gallery/Logo.png"></a>
+                <ul class="navigation"> 
+                    <li><a href="http://www.skyandtelescope.com/astronomy-news/solar-system/" target="_blank">News</a></li>
+                    <li><a href="HW-L6_page_ContactUs.html">Contact us</a></li>
+                    <li><a href="HW-L6_page_Gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <main>
             <div class="content">
                 <span class="breadCrumb"><a href="HW-L6_page1.html">Planets</a></span>
